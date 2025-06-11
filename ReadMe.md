@@ -1,6 +1,6 @@
-# 📝 Lista de Exercícios 1 - Estudando as estruturas básicas. +PraTi & Codifica Edu
+# 📝 Lista de Exercícios 2 - Aplicando conceitos intermediários em JS
 
-Este projeto contém 15 exercícios escritos em JavaScript com Node.js, numerados de `ex01.js` ao `ex15.js`.
+Este projeto contém 9 exercícios escritos em JavaScript com Node.js, separados em 3 pastas de `Seção 1` à `Seção 3` numerados de `ex01.js` ao `ex03.js` em cada pasta.
 
 ## 📋-requisitos
 
@@ -11,7 +11,7 @@ Antes de começar, você precisa ter o [Node.js](https://nodejs.org/) instalado 
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/felipesoaresdeoliveira/lista-exercicios-maispraTi
+    git clone https://github.com/felipesoaresdeoliveira/Lista-de-Exercicios-2-Mais-pra-ti
     cd seu-repositorio
     ```
 
@@ -20,24 +20,19 @@ Antes de começar, você precisa ter o [Node.js](https://nodejs.org/) instalado 
     ```bash
     npm install
     ```
-    ```bash
-    npm install prompt-sync
-    ```
+    
+## ▶️ Como Executar os Exercícios
 
-🚨 Este projeto utiliza apenas a biblioteca prompt-sync para permitir entrada de dados pelo terminal.
+Os arquivos estão organizados em pastas nomeadas de `secao1` a `secao3`. Cada seção contém exercícios nomeados de `ex01.js` até `ex03.js` (conforme a seção).
 
-## ▶️ Como executar os exercícios
-
-Os arquivos estão em pasas nomeadas de Seção 1 à 3.
-Os arquivos estão nomeados de ex01.js até ex03.js em cada seção.
-
-Para executar os exercício, use o comando:
+Para executar um exercício, use o comando:
 
 ```bash
-node ex01.js
+node secaoX/exYY.js
 ```
 
-⚠️ Substitua ex01.js pelo nome do exercício que deseja testar, como ex05.js, ex12.js, etc.
+⚠️ Substitua `secaoX` pela seção desejada (ex: `secao1`) e `exYY.js` pelo nome do exercício (ex: `ex05.js`).
+
 
 ## 🧾 Estrutura do projeto
 
@@ -55,7 +50,6 @@ node ex01.js
 │   ├── ex07.js
 │   ├── ex08.js
 │   └── ex09.js
-├── package.json
 └── README.md
 
 ```
@@ -65,4 +59,4 @@ node ex01.js
 Certifique-se de estar no diretório correto ao rodar os arquivos.
 
 Você pode editar os arquivos diretamente para testar variações dos exercícios.
-#
+
